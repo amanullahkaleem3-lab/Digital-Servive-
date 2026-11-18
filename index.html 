@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bol Chal Pakistan - Studio Live Broadcast</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0a0a0a;color:#fff}
+.banner{width:100%;display:block}
+.topbar{background:#c00000;text-align:center;padding:8px;font-weight:bold;font-size:14px}
+.live-box{background:#111;margin:15px;border-radius:12px;padding:15px;text-align:center;border:1px solid #333}
+.live-badge{background:red;padding:5px 15px;border-radius:20px;font-weight:bold;display:inline-block;animation:blink 1s infinite}
+@keyframes blink{50%{opacity:.5}}
+.live-box iframe{width:100%;height:280px;border-radius:10px;margin-top:12px;background:#000}
+.btn{display:inline-block;background:#25D366;color:#fff;padding:12px 20px;border-radius:25px;text-decoration:none;font-weight:bold;margin:8px 5px}
+.btn-red{background:#c00000}
+section{padding:20px 15px}
+h2{border-left:5px solid #c00000;padding-left:10px;margin-bottom:15px}
+.news-card{background:#1a1a1a;padding:15px;border-radius:10px;margin-bottom:12px}
+.news-card h3{color:#ffcc00}
+.news-card p{font-size:14px;color:#ccc;margin-top:5px}
+.cats{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:10px 0}
+.cats span{background:#222;border:1px solid #444;padding:8px 14px;border-radius:20px;font-size:13px}
+.founder{background:#fff;color:#000;border-radius:15px;padding:20px;text-align:center;margin:15px}
+.founder img{width:120px;height:120px;border-radius:50%;object-fit:cover;border:4px solid #c00000}
+.founder h3{margin-top:10px;font-size:22px}
+.founder p{font-size:14px;color:#555}
+.cert{margin-top:12px;background:#f5f5f5;padding:10px;border-radius:10px;font-size:13px}
+footer{background:#000;text-align:center;padding:20px;font-size:13px;color:#aaa}
+</style>
+</head>
+<body>
+
+<!-- TUMHARA BANNER -->
+<img src="banner.jpg" class="banner" alt="Roznama Bol Chal Pakistan">
+<div class="topbar">سچ کی آواز، حق کی ترجمانی، عوام کی خدمت | BOL CHAL PAKISTAN</div>
+
+<div class="live-box">
+<span class="live-badge">● LIVE NOW</span>
+<h2 style="border:0;margin:12px 0">Studio Live Broadcast</h2>
+<iframe src="https://www.youtube.com/@bcn-5/live" allowfullscreen></iframe>
+<br>
+<a class="btn btn-red" href="https://youtube.com/@bcn-5" target="_blank">YouTube par Dekhen - @bcn-5</a>
+<a class="btn" href="https://wa.me/923407303114">WhatsApp par Khabar Bhejen</a>
+</div>
+
+<section>
+<h2>Categories / خبریں</h2>
+<div class="cats">
+<span>📰 باقی خبریں</span><span>⚽ کھیلوں</span><span>🔫 کرائم</span><span>🌍 عالمی خبریں</span><span>🇵🇰 قومی خبریں</span><span>🕌 علاقائی خبریں</span><span>📢 اشتہارات</span>
+</div>
+
+<h2 style="margin-top:20px">Latest News / تازہ ترین خبریں</h2>
+<div class="news-card"><h3>فیصل آباد: اہم خبر</h3><p>Yahan apni news ki headline aur tafseel likhen.</p></div>
+<div class="news-card"><h3>پاکستان: بڑی خبر</h3><p>Yahan dosri khabar likhen.</p></div>
+<div class="news-card"><h3>کھیل / Sports</h3><p>Yahan sports ki khabar likhen.</p></div>
+</section>
+
+<div class="founder">
+<img src="aman.jpg" alt="Aman Ullah Kaleem">
+<h3>Aman Ullah Kaleem</h3>
+<p>Founder & Journalist - Bol Chal Pakistan</p>
+<p style="margin-top:8px">9-Week Online Journalism Course (Batch 16) - National University of Journalism</p>
+<div class="cert"><b>Certificate of Completion</b><br>SL 92616080003 | Oct 20, 2026</div>
+<a class="btn btn-red" href="https://wa.me/923407303114">Contact - 0340 7303114</a><br>
+<a href="https://youtube.com/@bcn-5" target="_blank" style="color:#c00000;font-weight:bold">YouTube: @bcn-5</a>
+</div>
+
+<footer>© 2026 Bol Chal Pakistan - All Rights Reserved<br>Faisalabad, Punjab, Pakistan | WhatsApp: 0340 7303114 | YouTube: @bcn-5<br>بول چال پاکستان — ہر دل کی آواز</footer>
+
+</body>
+</html>
